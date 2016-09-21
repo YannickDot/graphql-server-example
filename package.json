@@ -1,0 +1,29 @@
+{
+  "name": "graphql-server-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YannickDot/graphql-server-example.git"
+  },
+  "keywords": [
+    "GraphQL",
+    "Restify"
+  ],
+  "author": "Yannick Spark <sparky.creativespace@gmail.com> (https://sparkyspace.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/YannickDot/graphql-server-example/issues"
+  },
+  "dependencies": {
+    "graphql": "^0.7.0",
+    "mongoose": "^4.6.0",
+    "restify": "^4.1.1"
+  },
+  "homepage": "https://github.com/YannickDot/graphql-server-example#readme"
+}
