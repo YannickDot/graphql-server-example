@@ -40,7 +40,6 @@ const baseType = new GraphQLObjectType({
       type: PhotoType,
       args: {
         id: {
-          description: 'If omitted replies with all the photos, if provided it returns the photo with this id',
           type: GraphQLInt
         }
       },
@@ -50,7 +49,6 @@ const baseType = new GraphQLObjectType({
       type: new GraphQLList(PhotoType),
       args: {
         id: {
-          description: 'If omitted replies with all the photos, if provided it returns the photo with this id',
           type: GraphQLInt
         }
       },
