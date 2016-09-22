@@ -33,4 +33,4 @@ and it should be returning :
 
 ## What in the box?
 
-The GraphQL schema provided with this server is defining a Photo type exposing 4 fields (title, thumbnailUrl, url, id)
+The GraphQL schema provided with this server is defining a Photo type exposing 4 fields `[title, thumbnailUrl, url, id]`
