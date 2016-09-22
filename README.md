@@ -6,13 +6,13 @@ An example implementation of GraphQL on a Restify server
 ### Install
 It requires NodeJS v6.4.0 or higher.
 
-```
-npm install
+```sh
+> npm install
 ```
 
 ### Run 
-```
-node index.js
+```sh
+> node index.js
 ```
 
 ### Try it out!
@@ -37,7 +37,7 @@ curl -XPOST -H 'Content-Type:application/graphql'  -d '{ photo(id: 4) { id, titl
 
 and it should be returning :
 
-```
+```json
 {
   "data": {
     "photo": {
