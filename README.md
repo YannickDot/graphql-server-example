@@ -16,8 +16,22 @@ node index.js
 ```
 
 ### Try it out!
+
+Let's define an example query :
+
+```js
+{
+  photo(id: 4) {
+    id,
+    title,
+    url
+  }
+}
+```
+
+
 ```sh
-curl -XPOST -H 'Content-Type:application/graphql'  -d '{ count }' http://localhost:8081/graphql 
+curl -XPOST -H 'Content-Type:application/graphql'  -d '{ photo(id: 4) { id, title, url } }' http://localhost:8081/graphql 
 ```
 
 and it should be returning :
@@ -25,7 +39,11 @@ and it should be returning :
 ```
 {
   "data": {
-    "count": 0
+    "photo": {
+      "id": 4,
+      "title": "culpa odio esse rerum omnis laboriosam voluptate repudiandae",
+      "url": "http://placehold.it/600/d32776"
+    }
   }
 }
 ```
