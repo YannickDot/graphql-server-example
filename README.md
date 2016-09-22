@@ -29,6 +29,7 @@ Let's define an example query :
 }
 ```
 
+Now we run it using cURL :
 
 ```sh
 curl -XPOST -H 'Content-Type:application/graphql'  -d '{ photo(id: 4) { id, title, url } }' http://localhost:8081/graphql 
